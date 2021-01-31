@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35152f81-1c98-406d-a8af-3adad4aca4f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/posts.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -20,7 +22,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="861b6e06-99df-4262-be31-bb9d2dfc94e6" name="laravel6" port="2024" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/public" remote-root="/" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost:2032/index.php" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/facade/ignition" />
       <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
@@ -132,12 +151,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Built-in Web Server.test">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/public" port="2032">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHP Built-in Web Server.test" />
+      <item itemvalue="PHPUnit.phpunit.xml" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -161,11 +188,66 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612082185667</updated>
-      <workItem from="1612082190059" duration="631000" />
+      <workItem from="1612082190059" duration="2258000" />
+      <workItem from="1612084530478" duration="6337000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1479" y="623" key="#CLI_Interpreters" timestamp="1612086860650">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state x="1479" y="623" key="#CLI_Interpreters/0.25.3840.1575@0.25.3840.1575" timestamp="1612086860650" />
+    <state x="1519" y="476" key="#Notifications" timestamp="1612087610364">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state x="1519" y="476" key="#Notifications/0.25.3840.1575@0.25.3840.1575" timestamp="1612087610364" />
+    <state x="1595" y="394" key="#PHP" timestamp="1612083236699">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state x="1595" y="394" key="#PHP/0.25.3840.1575@0.25.3840.1575" timestamp="1612083236699" />
+    <state x="1384" y="471" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612086514432">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state x="1384" y="471" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.3840.1575@0.25.3840.1575" timestamp="1612086514432" />
+    <state x="1636" y="639" width="568" height="362" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1612087510502">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state x="1636" y="639" width="568" height="362" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/0.25.3840.1575@0.25.3840.1575" timestamp="1612087510502" />
+    <state width="1238" height="459" key="GridCell.Tab.0.bottom" timestamp="1612125135617">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state width="1238" height="459" key="GridCell.Tab.0.bottom/0.25.3840.1575@0.25.3840.1575" timestamp="1612125135617" />
+    <state width="1238" height="459" key="GridCell.Tab.0.center" timestamp="1612125135615">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state width="1238" height="459" key="GridCell.Tab.0.center/0.25.3840.1575@0.25.3840.1575" timestamp="1612125135615" />
+    <state width="1238" height="459" key="GridCell.Tab.0.left" timestamp="1612125135615">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state width="1238" height="459" key="GridCell.Tab.0.left/0.25.3840.1575@0.25.3840.1575" timestamp="1612125135615" />
+    <state width="1238" height="459" key="GridCell.Tab.0.right" timestamp="1612125135616">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state width="1238" height="459" key="GridCell.Tab.0.right/0.25.3840.1575@0.25.3840.1575" timestamp="1612125135616" />
+    <state x="1740" y="741" key="NewPhpFileDialog" timestamp="1612087928152">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state x="1740" y="741" key="NewPhpFileDialog/0.25.3840.1575@0.25.3840.1575" timestamp="1612087928152" />
+    <state x="1392" y="380" width="1974" height="1041" key="SettingsEditor" timestamp="1612124094714">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state x="1392" y="380" width="1974" height="1041" key="SettingsEditor/0.25.3840.1575@0.25.3840.1575" timestamp="1612124094714" />
+    <state x="0" y="25" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1612086704853">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state x="0" y="25" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.25.3840.1575@0.25.3840.1575" timestamp="1612086704853" />
+    <state x="1585" y="448" width="667" height="729" key="find.popup" timestamp="1612084936388">
+      <screen x="0" y="25" width="3840" height="1575" />
+    </state>
+    <state x="1585" y="448" width="667" height="729" key="find.popup/0.25.3840.1575@0.25.3840.1575" timestamp="1612084936388" />
   </component>
 </project>
